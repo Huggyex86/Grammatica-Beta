@@ -9,5 +9,6 @@ namespace Grammatica_Beta
     class Parola
     {
         String ciao;
+        int lel;
     }
 }
