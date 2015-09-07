@@ -9,28 +9,63 @@ namespace Grammatica_Beta
 {
     class Parola
     {
-        private const int MASCHILE = 0;
-        private const int FEMMINILE = 1;
-        private const int SINGOLARE = 0;
-        private const int PLURALE = 1;
-        private const int ARTICOLO = 0;
-        private const int NOME = 1;
-        private const int AGGETTIVO = 2;
-        private const int PRONOME = 3;
-        private const int VERBO = 4;
-        private const int AVVERBIO = 5;
-        private const int PREPOSIZIONE = 6;
-        private const int CONGIUNZIONE = 7;
-        private const int ESCLAMAZIONE = 8;
-        private const int CULO = 9;
-        private const int PRIMA = 1;
-        private const int SECONDA = 2;
-        private const int TERZA = 3;
+        //GENERE
+        private const byte MASCHILE = 0;
+        private const byte FEMMINILE = 1;
+        //NUMERO
+        private const byte SINGOLARE = 0;
+        private const byte PLURALE = 1;
+        //PARTE DEL DISCORSO
+        private const byte ARTICOLO = 0;
+        private const byte NOME = 1;
+        private const byte AGGETTIVO = 2;
+        private const byte PRONOME = 3;
+        private const byte VERBO = 4;
+        private const byte AVVERBIO = 5;
+        private const byte PREPOSIZIONE = 6;
+        private const byte CONGIUNZIONE = 7;
+        private const byte ESCLAMAZIONE = 8;
+        //CULO
+        private const byte CULO = 9;
+        //PERSONA
+        private const byte PRIMA = 1;
+        private const byte SECONDA = 2;
+        private const byte TERZA = 3;
+        //TIPO
+        private const byte PERSONALE = 0;
+        private const byte POSSESSIVO = 1;
+        private const byte DIMOSTRATIVO = 2;
+        private const byte INDEFINITO = 3;
+        private const byte RELATIVO = 4;
+        private const byte MISTO = 5;
+        private const byte INTERROGATIVO = 6;
+        private const byte ESCLAMATIVO = 7;
+        private const byte PRONOME_PERSONALE = 8;
+        private const byte DI_MODO = 9;
+        private const byte DI_TEMPO = 10;
+        private const byte DI_LUOGO = 11;
+        private const byte DI_QUANTITà = 12;
+        private const byte DI_AFFERMAZIONE = 13;
+        private const byte DI_NEGOZIAZIONE = 14;
+        private const byte DI_DUBBIO = 15;
+        private const byte INTERROGATIVO = 16;
+        private const byte RELATIVO = 17;
+        //DEGRADO
+        private const byte POSITIVO = 0;
+        private const byte COMPARATIVO_DI_UGUAGLIANZA = 1;
+        private const byte COMPARATIVO_DI_MINORANZA = 2;
+        private const byte COMPARATIVO_DI_MAGGIORANZA = 3;
+        private const byte SUPERLATIVO_RELATIVO = 4;
+        private const byte SUPERLATIVO_ASSOLUTO = 5;
         String parola;
-        int genere;
-        int pluralità;
-        int parteDelDiscorso;
+        byte genere;
+        byte numero;
+        byte parteDelDiscorso;
         bool verboRiflessivo;
-        int persona;
+        byte persona;
+        //personale (cfr. sotto), possessivo, dimostrativo, indefinito, relativo, misto, byteerrogativo o esclamativo4;
+        byte tipo;
+        //5) il grado (solo per l’aggettivo qualificativo): positivo, comparativo (di uguaglianza, minoranza o maggioranza), superlativo (relativo o assoluto)3.
+        byte grado;
     }
 }
