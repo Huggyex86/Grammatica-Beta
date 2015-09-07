@@ -48,8 +48,6 @@ namespace Grammatica_Beta
         private const byte DI_AFFERMAZIONE = 13;
         private const byte DI_NEGOZIAZIONE = 14;
         private const byte DI_DUBBIO = 15;
-        private const byte INTERROGATIVO = 16;
-        private const byte RELATIVO = 17;
         //DEGRADO
         private const byte POSITIVO = 0;
         private const byte COMPARATIVO_DI_UGUAGLIANZA = 1;
