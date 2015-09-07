@@ -6,8 +6,7 @@ using System.Threading.Tasks;
 
 namespace Grammatica_Beta
 {
-    class Grammatica
+    class Parola
     {
-        
     }
 }
