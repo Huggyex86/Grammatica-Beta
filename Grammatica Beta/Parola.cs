@@ -48,6 +48,30 @@ namespace Grammatica_Beta
         private const byte DI_AFFERMAZIONE = 13;
         private const byte DI_NEGOZIAZIONE = 14;
         private const byte DI_DUBBIO = 15;
+        private const byte COPULATIVA = 16;
+        private const byte AVVERSATIVA = 17;
+        private const byte DISGIUNTIVA = 18;
+        private const byte DICHIARATIVA = 19;
+        private const byte CONCLUSIVA = 20;
+        private const byte CORRELATIVA = 21;
+        private const byte FINALE = 22;
+        private const byte CAUSALE = 23;
+        private const byte CONSECUTIVA = 24;
+        private const byte TEMPORALE = 25;
+        // concessiva, condizionale, modale, comparativa, limitativa, dubitativa e interrogativa, esclusiva o limitativa.
+        private const byte CONCESSIVA = 26;
+        private const byte CONDIZIONALE = 27;
+        private const byte MODALE = 28;
+        private const byte COMPARATIVA = 29;
+        private const byte LIMITATIVA = 30;
+        private const byte DUBITATIVA = 31;
+        private const byte INTERROGATIVA = 32;
+        private const byte ESCLUSIVA = 33;
+        //di stupore, di dolore, di gioia, di paura, 
+        private const byte STUPORE = 34;
+        private const byte DOLORE = 35;
+        private const byte GIOIA = 36;
+        private const byte PAURA = 37;
         //DEGRADO
         private const byte POSITIVO = 0;
         private const byte COMPARATIVO_DI_UGUAGLIANZA = 1;
@@ -55,6 +79,18 @@ namespace Grammatica_Beta
         private const byte COMPARATIVO_DI_MAGGIORANZA = 3;
         private const byte SUPERLATIVO_RELATIVO = 4;
         private const byte SUPERLATIVO_ASSOLUTO = 5;
+        //FORMA
+        private const byte SEMPLICE = 0;
+        private const byte COMPOSTA = 1;
+        private const byte LOCUZIONE = 2;
+        private const byte CONGIUNTIVA = 3;
+        private const byte PROPRIA = 4;
+        private const byte IMPROPRIA = 5;
+        private const byte INTERIETTIVA = 6;
+        //FUNZIONE
+        private const byte COORDINATE = 0;
+        private const byte SUBORDINATE = 1;
+        
         String parola;
         byte genere;
         byte numero;
@@ -65,5 +101,9 @@ namespace Grammatica_Beta
         byte tipo;
         //5) il grado (solo per l’aggettivo qualificativo): positivo, comparativo (di uguaglianza, minoranza o maggioranza), superlativo (relativo o assoluto)3.
         byte grado;
+        //semplice, composta, locuzione congiuntiva;
+        byte forma;
+        //coordinate o subordinate;
+        byte funzione;
     }
 }
