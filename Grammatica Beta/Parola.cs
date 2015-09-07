@@ -58,7 +58,6 @@ namespace Grammatica_Beta
         private const byte CAUSALE = 23;
         private const byte CONSECUTIVA = 24;
         private const byte TEMPORALE = 25;
-        // concessiva, condizionale, modale, comparativa, limitativa, dubitativa e interrogativa, esclusiva o limitativa.
         private const byte CONCESSIVA = 26;
         private const byte CONDIZIONALE = 27;
         private const byte MODALE = 28;
@@ -67,7 +66,6 @@ namespace Grammatica_Beta
         private const byte DUBITATIVA = 31;
         private const byte INTERROGATIVA = 32;
         private const byte ESCLUSIVA = 33;
-        //di stupore, di dolore, di gioia, di paura, 
         private const byte STUPORE = 34;
         private const byte DOLORE = 35;
         private const byte GIOIA = 36;
@@ -87,10 +85,12 @@ namespace Grammatica_Beta
         private const byte PROPRIA = 4;
         private const byte IMPROPRIA = 5;
         private const byte INTERIETTIVA = 6;
-        //FUNZIONE
+        //FUNZIONEdeterminativo, indeterminativo o partitivo;
         private const byte COORDINATE = 0;
         private const byte SUBORDINATE = 1;
-        
+        private const byte DETERMINATIVO = 2;
+        private const byte INDETERMINATIVO = 3;
+        private const byte PARTITIVO = 4;
         String parola;
         byte genere;
         byte numero;
