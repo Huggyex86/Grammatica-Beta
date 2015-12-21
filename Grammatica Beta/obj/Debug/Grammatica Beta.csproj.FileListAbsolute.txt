@@ -1,2 +1,10 @@
 c:\users\huggye\documents\visual studio 2013\Projects\Grammatica Beta\Grammatica Beta\bin\Debug\Grammatica Beta.exe.config
 C:\Users\Sourazou\Documents\GitHub\Grammatica-Beta\Grammatica Beta\bin\Debug\Grammatica Beta.exe.config
+C:\Users\Sourazou\Documents\GitHub\Grammatica-Beta\Grammatica Beta\bin\Debug\Grammatica Beta.exe
+C:\Users\Sourazou\Documents\GitHub\Grammatica-Beta\Grammatica Beta\bin\Debug\Grammatica Beta.pdb
+C:\Users\Sourazou\Documents\GitHub\Grammatica-Beta\Grammatica Beta\obj\Debug\Grammatica Beta.csprojResolveAssemblyReference.cache
+C:\Users\Sourazou\Documents\GitHub\Grammatica-Beta\Grammatica Beta\obj\Debug\Grammatica_Beta.Form1.resources
+C:\Users\Sourazou\Documents\GitHub\Grammatica-Beta\Grammatica Beta\obj\Debug\Grammatica_Beta.Properties.Resources.resources
+C:\Users\Sourazou\Documents\GitHub\Grammatica-Beta\Grammatica Beta\obj\Debug\Grammatica Beta.csproj.GenerateResource.Cache
+C:\Users\Sourazou\Documents\GitHub\Grammatica-Beta\Grammatica Beta\obj\Debug\Grammatica Beta.exe
+C:\Users\Sourazou\Documents\GitHub\Grammatica-Beta\Grammatica Beta\obj\Debug\Grammatica Beta.pdb

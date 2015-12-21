@@ -105,5 +105,9 @@ namespace Grammatica_Beta
         byte forma;
         //coordinate o subordinate;
         byte funzione;
+
+
+       //LO TERMINIAMO STO PROGRAMMA....????
+
     }
 }
